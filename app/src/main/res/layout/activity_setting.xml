@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/MatchMatch.Vertical">
+    <lchj.kotlin.base.widgets.HeaderBar
+        style="@style/MatchWrap"
+        app:titleText="设置"/>
+    <RelativeLayout
+        android:id="@+id/mUserClearNercun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/SettingItemStyle"
+            android:text="清除内存"/>
+
+        <TextView
+            android:id="@+id/TvNerCunSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/mUserProtocolTv"
+        style="@style/SettingItemStyle"
+        android:text="用户协议"/>
+    <TextView
+        android:id="@+id/mFeedBackTv"
+        style="@style/SettingItemStyle"
+        android:text="反馈意见"/>
+    <TextView
+        android:id="@+id/mAboutTv"
+        style="@style/SettingItemStyle"
+        android:text="关于"/>
+    <Button
+        android:id="@+id/mLogoutBtn"
+        android:text="退出登录"
+        style="@style/FullBtnStyle"
+        android:enabled="true"
+        />
+</LinearLayout>
